@@ -1,0 +1,99 @@
+<foobar/>
+
+<w:rPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"/>
+
+<w:rPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"/>
+
+<w:rPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" a="b"/>
+
+<w:rPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" w:b="on"/>
+
+<w:rPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" w:b="8,7"/>
+
+<w:rPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" w:b="on"/>
+
+<w:rPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" w:val="-48.7" b="c"/>
+
+<foo>
+  <bar/>
+</foo>
+
+<foo xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
+  <w:bar/>
+</foo>
+
+<foo>
+  <w:bar xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"/>
+</foo>
+
+<foo>
+  <bar/>
+  <baz/>
+</foo>
+
+<foo>
+  <bar>
+    <baz/>
+  </bar>
+  <bar/>
+</foo>
+
+<foo>
+  <bar/>
+  <bar>
+    <baz/>
+  </bar>
+  <bar/>
+</foo>
+
+<foo>
+  <bar>
+    <baz/>
+    <baz/>
+  </bar>
+  <bar/>
+</foo>
+
+<foo>bar</foo>
+
+<foo a="b"> ba r </foo>
+
+<w:rPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" w:val="8,7">
+  <w:r r:id="1">foobar</w:r>
+  <w:r r:id="3"/>
+</w:rPr>
+
+<c:barChart xmlns:c="http://schemas.openxmlformats.org/drawingml/2006/chart">
+  <c:ser>
+    <c:cat>
+      <c:strRef>
+        <c:strCache>
+          <c:pt idx="1">
+            <c:v>bar</c:v>
+          </c:pt>
+          <c:pt idx="0">
+            <c:v>foo</c:v>
+          </c:pt>
+          <c:pt idx="2">
+            <c:v>baz</c:v>
+          </c:pt>
+        </c:strCache>
+      </c:strRef>
+    </c:cat>
+  </c:ser>
+</c:barChart>
+
+<wp:inline xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture">
+  <wp:extent cx="333" cy="666"/>
+  <a:graphic>
+    <a:graphicData>
+      <pic:pic>
+        <pic:spPr>
+          <a:xfrm>
+            <a:ext cx="333" cy="666"/>
+          </a:xfrm>
+        </pic:spPr>
+      </pic:pic>
+    </a:graphicData>
+  </a:graphic>
+</wp:inline>
